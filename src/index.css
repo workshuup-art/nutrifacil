@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --font-display: 'Outfit', 'Plus Jakarta Sans', sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    touch-action: manipulation;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: var(--font-display);
+  }
+}
+
+/* Accessible text size modes */
+html.font-normal {
+  font-size: 16px;
+}
+
+html.font-large {
+  font-size: 19px;
+}
+
+html.font-xlarge {
+  font-size: 22px;
+}
+
+/* High contrast mode enhancements */
+html.high-contrast {
+  filter: contrast(115%);
+}
+
+html.high-contrast button,
+html.high-contrast [role="button"] {
+  outline-offset: 2px;
+}
+
+/* Smooth focus visible for motor and keyboard accessibility */
+:focus-visible {
+  outline: 3px solid #16a34a;
+  outline-offset: 2px;
+}

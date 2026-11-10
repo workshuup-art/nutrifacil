@@ -1,0 +1,58 @@
+import { DictionaryTerm } from '../types';
+
+export const DICTIONARY_TERMS: DictionaryTerm[] = [
+  {
+    id: 'sodio',
+    term: 'Sódio (Sal)',
+    simpleAnalogy: 'É como uma esponja que puxa água e aperta as mangueirinhas do sangue.',
+    plainMeaning: 'É o mineral principal do sal de cozinha e dos produtos de pacote.',
+    whyItMatters: 'Em excesso, faz o coração bater mais pesado e sobe a pressão arterial.',
+    whereItIsFound: 'Salgadinhos, caldos em cubo, embutidos (mortadela/salsicha) e comida muito salgada.',
+    emoji: '🧂',
+  },
+  {
+    id: 'fibras',
+    term: 'Fibras',
+    simpleAnalogy: 'É como uma vassourinha amiga que limpa o intestino e segura o açúcar.',
+    plainMeaning: 'Partes das plantas e sementes que o estômago não digere de uma vez.',
+    whyItMatters: 'Ajudam a ir ao banheiro sem dor, diminuem o colesterol ruim e evitam picos de diabetes.',
+    whereItIsFound: 'Feijão, aveia, folhas verdes como couve, cenoura crua, maçã e cascas de frutas.',
+    emoji: '🌾',
+  },
+  {
+    id: 'carboidratos',
+    term: 'Carboidratos',
+    simpleAnalogy: 'É o combustível (a gasolina) do corpo para andar, trabalhar e pensar.',
+    plainMeaning: 'Nutrientes que viram energia e açúcar dentro do nosso organismo.',
+    whyItMatters: 'Os integrais (arroz com feijão, aveia, batata-doce) queimam devagar. Os brancos e doces queimam rápido demais e viram gordura se consumidos em excesso.',
+    whereItIsFound: 'Arroz, pão, batatas, mandioca, macarrão, frutas e doces.',
+    emoji: '🥔',
+  },
+  {
+    id: 'proteinas',
+    term: 'Proteínas',
+    simpleAnalogy: 'São os tijolos que constroem os músculos, a pele e a cicatrização.',
+    plainMeaning: 'Alimentos essenciais para manter a força do corpo, especialmente na terceira idade.',
+    whyItMatters: 'Evitam a perda de força nas pernas, aumentam a imunidade e mantêm o corpo firme.',
+    whereItIsFound: 'Ovos, feijão, frango, peixe, carne moída e leite.',
+    emoji: '🥚',
+  },
+  {
+    id: 'acucar-oculto',
+    term: 'Açúcar Oculto',
+    simpleAnalogy: 'É o doce disfarçado com outros nomes difíceis no rótulo.',
+    plainMeaning: 'Açúcar adicionado pelas fábricas em alimentos que nem parecem doces (molhos prontos, biscoitos salgados, iogurtes).',
+    whyItMatters: 'Faz engordar sem a pessoa perceber e atrapalha o controle do diabetes.',
+    whereItIsFound: 'Ketchup, suco de caixinha, cereais matinais e molhos para salada prontos.',
+    emoji: '🕵️',
+  },
+  {
+    id: 'gordura-boa',
+    term: 'Gorduras Boas vs Ruins',
+    simpleAnalogy: 'A boa é óleo limpo para as engrenagens; a ruim é graxa que entope o cano.',
+    plainMeaning: 'Gorduras boas (mono e poliinsaturadas) defendem o cérebro; gorduras saturadas e trans entopem as artérias.',
+    whyItMatters: 'Proteger o coração contra infarto e derrame.',
+    whereItIsFound: 'Boas: azeite, sardinha, sementes e abacate. Ruins: frituras, margarina, gordura de porco em excesso e recheios industriais.',
+    emoji: '🥑',
+  },
+];

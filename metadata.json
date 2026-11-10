@@ -1,0 +1,6 @@
+{
+  "name": "NutriFácil – Saúde que se Entende",
+  "description": "Plataforma inclusiva e visual de educação nutricional para escolhas alimentares conscientes, diabetes, hipertensão, obesidade e economia.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
